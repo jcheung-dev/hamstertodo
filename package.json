@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest",
+  "test": "vitest run --reporter verbose",
     "test:ci": "vitest run --run",
     "test:watch": "vitest --watch",
     "coverage": "vitest run --coverage"
